@@ -7,6 +7,8 @@ import chess
 
 import pkgutil
 import importlib
+# IMPORTANT: Import bot registry (functions)
+from Bots.ChessBotList import CHESS_BOT_LIST
 
 def load_all_bots():
     # Import every module in Bots/ so their register_chess_bot() runs
@@ -17,8 +19,7 @@ def load_all_bots():
 load_all_bots()
 
 
-# IMPORTANT: Import bot registry (functions)
-from Bots.ChessBotList import CHESS_BOT_LIST
+
 
 # =========================
 # UCI helpers
