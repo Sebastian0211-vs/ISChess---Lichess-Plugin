@@ -129,8 +129,8 @@ engine:
   # UCI entry point
   name: "ISChess_uci.py"
 
-  # Run using the active Python (venv)
-  interpreter: "python"
+  
+  interpreter: "python"  # path to venv python.exe from ISChess
 
   # Select your bot (must be registered in Bots/)
   engine_options:
